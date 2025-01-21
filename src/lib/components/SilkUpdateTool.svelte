@@ -33,9 +33,11 @@
 <div>
   <p>Add/Remove Silks</p>
   <article>
-    <Button onclick={remove} disabled={!isDigitsOnly(`${value}`)} variant="danger">-</Button>
+    <Button onclick={remove} disabled={!isDigitsOnly(`${value}`) || !value} variant="danger"
+      >-</Button
+    >
     <NumberInput {value} {oninput} />
-    <Button onclick={add} disabled={!isDigitsOnly(`${value}`)}>+</Button>
+    <Button onclick={add} disabled={!isDigitsOnly(`${value}`) || !value}>+</Button>
   </article>
 </div>
 
