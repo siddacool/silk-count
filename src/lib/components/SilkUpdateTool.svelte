@@ -31,7 +31,7 @@
 </script>
 
 <div>
-  <p>Add/Remove Silks</p>
+  <p>Remove / Add Silks</p>
   <article>
     <Button onclick={remove} disabled={!isDigitsOnly(`${value}`) || !value} variant="danger"
       >-</Button

@@ -14,7 +14,10 @@
   <main>
     <Box>
       <Stack space={2}>
-        <StackItem><h1><b>{useCountStore.count}</b> Silks 🍫 Pending</h1></StackItem>
+        <StackItem>
+          <h1>{useCountStore.count} <b>🍫</b></h1>
+          <h2>Silks Pending</h2>
+        </StackItem>
         <StackItem><SilkUpdateTool /></StackItem>
       </Stack>
 
@@ -35,8 +38,25 @@
   }
 
   h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    b {
+      font-size: 2.6rem;
+    }
+  }
+
+  h2 {
     font-weight: 500;
     text-align: center;
     font-size: 2rem;
+    margin-top: 0;
+    position: relative;
+    top: -10px;
   }
 </style>
