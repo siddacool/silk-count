@@ -29,7 +29,7 @@
       if (sytemTheme === AppColorSchemes.DARK) {
         metaThemeColor.setAttribute('content', '#0e1012');
       } else {
-        metaThemeColor.setAttribute('content', '#fafafa');
+        metaThemeColor.setAttribute('content', '#fff');
       }
     }
   });
