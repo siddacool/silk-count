@@ -14,7 +14,7 @@
   <main>
     <Box>
       <Stack space={2}>
-        <StackItem><h1><b>{useCountStore.count}</b> Silks Pending</h1></StackItem>
+        <StackItem><h1><b>{useCountStore.count}</b> Silks 🍫 Pending</h1></StackItem>
         <StackItem><SilkUpdateTool /></StackItem>
       </Stack>
 
