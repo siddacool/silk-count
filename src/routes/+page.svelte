@@ -58,5 +58,6 @@
     margin-top: 0;
     position: relative;
     top: -10px;
+    margin-bottom: 50px;
   }
 </style>
